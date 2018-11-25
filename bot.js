@@ -58,7 +58,7 @@ if (message.content === '!spam2') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`اراب جيمنج فوق`)
+        message.channel.send(`[ " ${x} " ]اراب جيمنج فوق`)
           .then(m => {
             count++;
           })
@@ -72,7 +72,7 @@ if (message.content === '!spam2') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`اراب جيمنج فوق`)
+        message.channel.send(`[ " ${x} " ]اراب جيمنج فوق`)
           .then(m => {
             count++;
           })
